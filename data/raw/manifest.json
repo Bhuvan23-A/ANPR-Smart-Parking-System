@@ -1,0 +1,327 @@
+[
+    {
+        "plate_text": "DL01AB1234",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "normal",
+        "image_path": "data/raw\\vehicle_001_normal_DL01AB1234.png",
+        "filename": "vehicle_001_normal_DL01AB1234.png"
+    },
+    {
+        "plate_text": "MH12DE4567",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "normal",
+        "image_path": "data/raw\\vehicle_002_normal_MH12DE4567.png",
+        "filename": "vehicle_002_normal_MH12DE4567.png"
+    },
+    {
+        "plate_text": "KA05MJ9876",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "normal",
+        "image_path": "data/raw\\vehicle_003_normal_KA05MJ9876.png",
+        "filename": "vehicle_003_normal_KA05MJ9876.png"
+    },
+    {
+        "plate_text": "TN07BK3321",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "normal",
+        "image_path": "data/raw\\vehicle_004_normal_TN07BK3321.png",
+        "filename": "vehicle_004_normal_TN07BK3321.png"
+    },
+    {
+        "plate_text": "TS09FA2024",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "normal",
+        "image_path": "data/raw\\vehicle_005_normal_TS09FA2024.png",
+        "filename": "vehicle_005_normal_TS09FA2024.png"
+    },
+    {
+        "plate_text": "DL08CZ5544",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "low_light",
+        "image_path": "data/raw\\vehicle_006_low_light_DL08CZ5544.png",
+        "filename": "vehicle_006_low_light_DL08CZ5544.png"
+    },
+    {
+        "plate_text": "HR26DK8899",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "low_light",
+        "image_path": "data/raw\\vehicle_007_low_light_HR26DK8899.png",
+        "filename": "vehicle_007_low_light_HR26DK8899.png"
+    },
+    {
+        "plate_text": "UP16AF1122",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "low_light",
+        "image_path": "data/raw\\vehicle_008_low_light_UP16AF1122.png",
+        "filename": "vehicle_008_low_light_UP16AF1122.png"
+    },
+    {
+        "plate_text": "MH04GH7766",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "low_light",
+        "image_path": "data/raw\\vehicle_009_low_light_MH04GH7766.png",
+        "filename": "vehicle_009_low_light_MH04GH7766.png"
+    },
+    {
+        "plate_text": "KA01ER3456",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "low_light",
+        "image_path": "data/raw\\vehicle_010_low_light_KA01ER3456.png",
+        "filename": "vehicle_010_low_light_KA01ER3456.png"
+    },
+    {
+        "plate_text": "GJ01XY9012",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 12.0,
+        "condition": "tilted",
+        "image_path": "data/raw\\vehicle_011_tilted_GJ01XY9012.png",
+        "filename": "vehicle_011_tilted_GJ01XY9012.png"
+    },
+    {
+        "plate_text": "RJ14CD4321",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": -15.0,
+        "condition": "tilted",
+        "image_path": "data/raw\\vehicle_012_tilted_RJ14CD4321.png",
+        "filename": "vehicle_012_tilted_RJ14CD4321.png"
+    },
+    {
+        "plate_text": "KL07BT6543",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 18.0,
+        "condition": "tilted",
+        "image_path": "data/raw\\vehicle_013_tilted_KL07BT6543.png",
+        "filename": "vehicle_013_tilted_KL07BT6543.png"
+    },
+    {
+        "plate_text": "WB02AC7890",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": -10.0,
+        "condition": "tilted",
+        "image_path": "data/raw\\vehicle_014_tilted_WB02AC7890.png",
+        "filename": "vehicle_014_tilted_WB02AC7890.png"
+    },
+    {
+        "plate_text": "AP09PK5678",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 14.0,
+        "condition": "tilted",
+        "image_path": "data/raw\\vehicle_015_tilted_AP09PK5678.png",
+        "filename": "vehicle_015_tilted_AP09PK5678.png"
+    },
+    {
+        "plate_text": "CH01TC1111",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "noisy",
+        "image_path": "data/raw\\vehicle_016_noisy_CH01TC1111.png",
+        "filename": "vehicle_016_noisy_CH01TC1111.png"
+    },
+    {
+        "plate_text": "MP09ZA9988",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "noisy",
+        "image_path": "data/raw\\vehicle_017_noisy_MP09ZA9988.png",
+        "filename": "vehicle_017_noisy_MP09ZA9988.png"
+    },
+    {
+        "plate_text": "GA03X7777",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "noisy",
+        "image_path": "data/raw\\vehicle_018_noisy_GA03X7777.png",
+        "filename": "vehicle_018_noisy_GA03X7777.png"
+    },
+    {
+        "plate_text": "PB10BW2233",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "noisy",
+        "image_path": "data/raw\\vehicle_019_noisy_PB10BW2233.png",
+        "filename": "vehicle_019_noisy_PB10BW2233.png"
+    },
+    {
+        "plate_text": "OD02MK4455",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "noisy",
+        "image_path": "data/raw\\vehicle_020_noisy_OD02MK4455.png",
+        "filename": "vehicle_020_noisy_OD02MK4455.png"
+    },
+    {
+        "plate_text": "DL03CC8811",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "glare",
+        "image_path": "data/raw\\vehicle_021_glare_DL03CC8811.png",
+        "filename": "vehicle_021_glare_DL03CC8811.png"
+    },
+    {
+        "plate_text": "MH02BY3344",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "glare",
+        "image_path": "data/raw\\vehicle_022_glare_MH02BY3344.png",
+        "filename": "vehicle_022_glare_MH02BY3344.png"
+    },
+    {
+        "plate_text": "KA03NF5566",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "glare",
+        "image_path": "data/raw\\vehicle_023_glare_KA03NF5566.png",
+        "filename": "vehicle_023_glare_KA03NF5566.png"
+    },
+    {
+        "plate_text": "TN09EF7788",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "glare",
+        "image_path": "data/raw\\vehicle_024_glare_TN09EF7788.png",
+        "filename": "vehicle_024_glare_TN09EF7788.png"
+    },
+    {
+        "plate_text": "HR51AM9900",
+        "bbox": [
+            205,
+            318,
+            230,
+            58
+        ],
+        "tilt_angle": 0.0,
+        "condition": "glare",
+        "image_path": "data/raw\\vehicle_025_glare_HR51AM9900.png",
+        "filename": "vehicle_025_glare_HR51AM9900.png"
+    }
+]

@@ -1,0 +1,6 @@
+Condition,Samples,Mean Plate IoU,Char Accuracy (%),Plate Exact Match (%),Avg Latency (ms)
+Normal,5,0.89,60.0,60.0,204.1
+Low_light,5,0.894,66.0,60.0,129.3
+Tilted,5,0.876,10.0,0.0,86.6
+Noisy,5,0.823,34.67,0.0,106.6
+Glare,5,0.588,0.0,0.0,82.8

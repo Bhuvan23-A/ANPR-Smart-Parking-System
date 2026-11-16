@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints*/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Temporary files & logs
+*.log
+.DS_Store
+Thumbs.db
+mpl_cache/
+
+# Large Model weights (auto-generated on run)
+*.joblib
