@@ -91,7 +91,10 @@ def main():
     # Image Input Selection
     st.sidebar.markdown("---")
     st.sidebar.subheader("📷 Vehicle Image Source")
-    input_mode = st.sidebar.radio("Select Source", ["Benchmark Sample", "Upload Custom Image"])
+    sources = ["Benchmark Sample", "Upload Custom Image"]
+    if os.path.exists("archive/images"):
+        sources.insert(1, "Kaggle Real Cars (433 Images)")
+    input_mode = st.sidebar.radio("Select Source", sources)
 
     image_to_process = None
     sample_name = ""
@@ -104,6 +107,11 @@ def main():
     if input_mode == "Benchmark Sample" and sample_files:
         sample_name = st.sidebar.selectbox("Select Surveillance Frame", sorted(sample_files))
         image_to_process = os.path.join(raw_dir, sample_name)
+    elif input_mode == "Kaggle Real Cars (433 Images)":
+        kaggle_dir = "archive/images"
+        kaggle_files = sorted([f for f in os.listdir(kaggle_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg'))])
+        sample_name = st.sidebar.selectbox("Select Real Kaggle Vehicle", kaggle_files)
+        image_to_process = os.path.join(kaggle_dir, sample_name)
     else:
         uploaded_file = st.sidebar.file_uploader("Upload Vehicle Image", type=["jpg", "jpeg", "png"])
         if uploaded_file:

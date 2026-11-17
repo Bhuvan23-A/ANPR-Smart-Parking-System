@@ -22,3 +22,6 @@ mpl_cache/
 
 # Large Model weights (auto-generated on run)
 *.joblib
+
+# Kaggle raw dataset folder
+archive/
