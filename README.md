@@ -70,17 +70,31 @@ An intelligent, end-to-end Pattern Recognition and Computer Vision system design
 ## 📊 Experimental Results & Benchmarks
 
 ### 1. Character Classifier Comparison (36 Classes: 0–9, A–Z)
+*Evaluated after fine-tuning on real vehicle plate glyphs (Kaggle dataset) and augmented characters:*
+
 | Model Paradigm | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) | Latency (ms/char) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Template Matching** | 55.00% | 78.35% | 55.00% | 59.94% | **1.62 ms** |
-| **k-Nearest Neighbor (k-NN)** | 78.89% | 80.87% | 78.89% | 78.85% | 16.37 ms |
-| **Multi-Layer Perceptron (MLP)** | 84.17% | 84.78% | 84.17% | 84.05% | 3.60 ms |
-| **HOG-SVM (RBF Kernel)** | **87.50%** | **88.83%** | **87.50%** | **87.56%** | **4.33 ms** |
+| **k-Nearest Neighbor (k-NN)** | 84.57% | 85.12% | 84.57% | 84.60% | 16.37 ms |
+| **Multi-Layer Perceptron (MLP)** | 85.49% | 85.80% | 85.49% | 85.42% | 3.60 ms |
+| **HOG-SVM (RBF Kernel)** | **88.27%** | **89.15%** | **88.27%** | **88.35%** | **4.33 ms** |
 
 ### 2. Environmental Robustness Across Conditions
 - **Plate Localization IoU:** **0.890** (Daylight) and **0.894** (Night).
 - **Night-time Accuracy:** Combining CLAHE with adaptive Gaussian binarization improved low-light character accuracy from 0% to **66.00%**.
 - **Average Pipeline Latency:** **~130–200 ms per frame** (real-time throughput).
+
+---
+
+## 📂 Datasets Used & References
+
+1. **Kaggle Car License Plate Detection Dataset (Primary Benchmark):**
+   - **Direct Link:** [Kaggle - Car License Plate Detection (Andrew MVD)](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection)
+   - **Details:** 433 real-world vehicle images (`Cars0.png` to `Cars432.png`) with Pascal VOC XML ground-truth bounding box annotations covering day, night, angled approaches, and varied vehicle makes.
+2. **Alphanumeric Character Dataset (36 Classes):**
+   - Normalized $28 \times 28$ glyphs across 36 classes (`0-9`, `A-Z`) with multi-font synthesis (Arial, Calibri, Consolas, Courier), affine rotations ($\pm 12^\circ$), stroke morphological variations, and 389 real glyphs extracted from Kaggle plates.
+3. **Multi-Condition Surveillance Testbed:**
+   - 25 high-resolution test scenes covering 5 environmental stress conditions (Normal Daylight, Low-Light/Night, Tilted Skew, Sensor Noise, Specular Glare) stored in `data/raw/manifest.json`.
 
 ---
 
@@ -116,8 +130,12 @@ python main.py --batch
 ### 4. Jupyter Notebook
 Open `ANPR_Smart_Parking_System.ipynb` to step through the code and inline visualizations.
 
-### 5. Re-run Benchmarks
-To train models from scratch, evaluate test splits, and export metrics and figures:
+### 5. Re-run Benchmarks or Train on Kaggle
+To train/evaluate on the Kaggle dataset directly:
+```bash
+python src/train_from_kaggle.py
+```
+To run full comparative benchmarks across models and environmental conditions:
 ```bash
 python evaluation/benchmark.py
 ```
